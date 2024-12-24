@@ -1,0 +1,7 @@
+/.debhelper
+/debhelper-build-stamp
+/files
+/imageforge*/
+/*.debhelper.log
+/*.postrm.debhelper
+/*.substvars

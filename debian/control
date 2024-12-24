@@ -1,0 +1,24 @@
+Source: imageforge
+Section: python
+Priority: optional
+Maintainer: Panda <panda@ameridroid.com>
+Build-Depends: debhelper (>=12~),
+               devscripts,
+               lintian,
+               dh-python,
+               python3-all,
+               python3-setuptools,
+               git,
+               curl
+
+
+Package: imageforge
+Architecture: all
+Homepage: https://github.com/ameriDroid/imageforge
+Depends: python3 (>= 3.11),
+         ${python:Depends},
+         ${misc:Depends}
+Provides: imageforge
+Description: Python library designed for building Linux distribution images.
+ This library is designed to make it easy to build Linux distribution images
+ for a variety of platforms, specifically ARM.

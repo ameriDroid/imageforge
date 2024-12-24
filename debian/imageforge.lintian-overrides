@@ -1,0 +1,3 @@
+# Lintian overrides for imageforge
+imageforge: extended-description-is-empty
+imageforge: description-synopsis-starts-with-article

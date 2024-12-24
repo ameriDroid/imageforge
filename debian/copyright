@@ -1,0 +1,7 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: imageforge
+Source: https://github.com/ameriDroid/imageforge
+
+Files: *
+Copyright: © 2024 Panda <panda@ameridroid.com
+License: GPL-3.0
